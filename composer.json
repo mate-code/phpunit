@@ -1,0 +1,32 @@
+{
+  "name": "mate-code/phpunit",
+  "description": "Intern PHP library modolib",
+  "homepage": "http://modotex.com",
+  "license": "proprietary",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Marius Teller",
+      "email": "marius.teller@modotex.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "mate-code/resource": "~1.0",
+    "doctrine/orm": "~2.4",
+    "doctrine/dbal": "~2.4",
+    "doctrine/common": "~2.4",
+    "zendframework/zend-servicemanager": "~2.4",
+    "zendframework/zend-console": "~2.4",
+    "zendframework/zend-mvc": "~2.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "mate\\PhpUnit\\": "src"
+    }
+  }
+}
