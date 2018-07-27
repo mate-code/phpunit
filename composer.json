@@ -1,13 +1,12 @@
 {
   "name": "mate-code/phpunit",
-  "description": "Intern PHP library modolib",
-  "homepage": "http://modotex.com",
+  "description": "PHPUnit extensions library",
   "license": "proprietary",
   "type": "library",
   "authors": [
     {
       "name": "Marius Teller",
-      "email": "marius.teller@modotex.com",
+      "email": "marius.teller@mail.de",
       "role": "Developer"
     }
   ],
